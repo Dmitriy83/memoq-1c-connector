@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="014e3d7d-bbcc-49b0-8c7e-3491b8dd6d6b">
+  <producedTypes>
+    <objectType typeId="037a6b07-c88e-46df-877b-d2977d559628" valueTypeId="5a9409ce-bcd6-466a-839d-1e20cc7f5a87"/>
+    <managerType typeId="46c0c2c4-bffd-407d-8561-b7f6bc6a0bcf" valueTypeId="cb092a67-3568-4b79-a4d9-ddd29b2b8708"/>
+  </producedTypes>
+  <name>ImportExportFilesMemoQ</name>
+  <synonym>
+    <key>en</key>
+    <value>Import/export files with MemoQ (prototype)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ImportExportFilesMemoQ.Form.Form</defaultForm>
+  <attributes uuid="4a65915d-9712-4b2f-9ec9-473ae934645a">
+    <name>SourceFolderPath</name>
+    <synonym>
+      <key>en</key>
+      <value>Source folder path</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="be931922-9041-4bc9-b1e5-9104a5e288ce">
+    <name>ProjectName</name>
+    <synonym>
+      <key>en</key>
+      <value>Project name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e1f89810-6e0e-42d9-aca8-0a6fdd0b843b">
+    <name>TargetFolderPath</name>
+    <synonym>
+      <key>en</key>
+      <value>Target folder path</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bf1e2d31-e477-437e-b8ad-5b9f0b015962">
+    <name>ApplictionName</name>
+    <synonym>
+      <key>en</key>
+      <value>Appliction name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9e106f86-65f4-4fcf-b630-18cf54c43514">
+    <name>UploadAllFiles</name>
+    <synonym>
+      <key>en</key>
+      <value>Upload all files</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="081307ac-c604-47f4-871a-b51f2a8c43d0">
+    <name>Form</name>
+    <synonym>
+      <key>en</key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

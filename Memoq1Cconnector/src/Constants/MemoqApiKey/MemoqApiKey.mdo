@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40362605-d300-4711-9ff5-531ecfa11428">
+  <producedTypes>
+    <managerType typeId="0998669f-9150-4e30-b72a-4a45c05915f3" valueTypeId="ba9cd56d-8ba9-41be-bdbd-3f6349f0fe21"/>
+    <valueManagerType typeId="c1e34267-594a-4757-aa69-fdd9250407a8" valueTypeId="3703848e-f9df-41ca-8563-d1710ffbb58e"/>
+    <valueKeyType typeId="68871b34-32d1-4460-bd50-c2f53725d0b8" valueTypeId="0903d56a-5b56-47b8-b158-f11b19020297"/>
+  </producedTypes>
+  <name>MemoqApiKey</name>
+  <synonym>
+    <key>en</key>
+    <value>MemoQ ApiKey</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.Constants</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f760f16c-e182-4969-ae39-5829661b1a3a">
+  <producedTypes>
+    <managerType typeId="08f57161-a384-4524-a310-c3613d76fff2" valueTypeId="f31c0255-48c1-4744-8bab-dadcb21fd79c"/>
+    <valueManagerType typeId="1dce83b7-3461-4b71-ad1d-5d99087af1a1" valueTypeId="b219bc34-47d1-40dc-b518-d5ed755e11a9"/>
+    <valueKeyType typeId="36887e27-6277-4546-91ca-09a98618b2d9" valueTypeId="4fe0f01c-d6c2-49dd-b54a-b07857b1f1db"/>
+  </producedTypes>
+  <name>FileChunkSize</name>
+  <synonym>
+    <key>en</key>
+    <value>File chunk size</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

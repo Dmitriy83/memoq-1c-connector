@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9b5cd4c-41ed-4a22-82ee-915e5303752a">
+  <name>Memoq1CConnector</name>
+  <synonym>
+    <key>en</key>
+    <value>MemoQ-1C content connector</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e96d8b46-1ad7-4f29-8820-b7edeb871f00"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="0974dfcc-47a4-4bb7-b0e8-0b53d7ff88d2"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a7e8b558-b245-458c-86b7-a6b91e55c06d"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="a6680127-81d9-4781-8f3b-54b138f9027f"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="90ad8f99-197a-4c90-99e6-38e78aec4c28"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="3b8e7448-16eb-4ef4-9e9a-9edc8799d673"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="f9c5d6e9-d400-43f5-88b5-cfc97b89f5fe"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <vendor>Romania Business Labs SRL</vendor>
+  <version>0.1.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.English</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="438677ef-d053-4647-acca-b388cc0058dd">
+    <name>English</name>
+    <synonym>
+      <key>en</key>
+      <value>English</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
+  <constants>Constant.MemoqApiKey</constants>
+  <constants>Constant.FileChunkSize</constants>
+  <constants>Constant.FilterConfigResGuid</constants>
+  <constants>Constant.CreateNewProjectIfNotFound</constants>
+  <commonForms>CommonForm.Constants</commonForms>
+  <commonForms>CommonForm.MainForm</commonForms>
+  <dataProcessors>DataProcessor.ImportExportFilesMemoQ</dataProcessors>
+</mdclass:Configuration>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0244b766-31fe-4161-941e-a035081c438e">
+  <producedTypes>
+    <managerType typeId="89680521-b9e9-4ba9-8941-4d52037395bf" valueTypeId="ebfc6cca-059e-42dd-a141-f0d6e1a93503"/>
+    <valueManagerType typeId="5a575738-e6d2-40af-a190-21a4cd1a7f34" valueTypeId="3558a065-d1c7-4049-8329-aa8a175bf338"/>
+    <valueKeyType typeId="f56c228d-7252-45f8-91e9-47a01d232004" valueTypeId="d64ed12c-3e28-411f-ab30-4f3b34475818"/>
+  </producedTypes>
+  <name>FilterConfigResGuid</name>
+  <synonym>
+    <key>en</key>
+    <value>Filter config res guid</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>36</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

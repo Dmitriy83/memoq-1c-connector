@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41f8c668-235a-44c2-ba9f-e78d89c17018">
+  <producedTypes>
+    <managerType typeId="f4d8dfee-7638-4089-aa77-1593be366adc" valueTypeId="c7151e17-6e19-4cae-aa4c-b8e724eaa69a"/>
+    <valueManagerType typeId="b8761222-69a9-42b7-a01f-8c1483d13ae7" valueTypeId="50943133-3fc8-45ff-b7ff-fb637e9031eb"/>
+    <valueKeyType typeId="7a2b96fc-fba1-4e14-bb13-99e3171775fb" valueTypeId="2fa26a05-575d-4b8b-8dc1-4b5956774d7d"/>
+  </producedTypes>
+  <name>CreateNewProjectIfNotFound</name>
+  <synonym>
+    <key>en</key>
+    <value>Create new project if not found</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
